@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="50dp">
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/linearLayout"
+            android:layout_centerVertical="true"
+            android:text="Nombre: " />
+
+        <TextView
+            android:id="@+id/textViewCosto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Costo: "
+            android:layout_below="@id/textViewNombre"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textViewCategoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/textViewCosto"
+            android:layout_centerVertical="true"
+            android:text="Categoria: " />
+
+        <TextView
+            android:id="@+id/textViewEstado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/textViewCategoria"
+            android:layout_centerVertical="true"
+            android:text="Estado: " />
+
+</RelativeLayout>
